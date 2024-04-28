@@ -1,0 +1,9 @@
+gymnasium==0.28.1
+matplotlib==3.7.4
+numba==0.58.1
+numpy==1.23.5
+numpy==1.24.3
+omnisafe==0.4.0
+pandas==2.0.3
+seaborn==0.13.2
+torch==2.1.2
