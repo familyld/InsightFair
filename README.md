@@ -2,7 +2,7 @@
 Author's implementation of InsightFair in "What Hides behind Unfairness? Exploring Dynamics Fairness in Reinforcement Learning". Our code is built off of [Omnisafe](https://github.com/PKU-Alignment/omnisafe/tree/main).
 
 Link to our paper:
-- IJCAI: TBD
+- IJCAI: To be released
 - arXiv: [https://arxiv.org/abs/2404.10942](https://arxiv.org/abs/2404.10942)
 
 ## Prerequisites
@@ -22,7 +22,8 @@ pip install -r requirements.txt
 For training `ALGO` on `ENV` (e.g. `Allocation-v0` or `Lending-v0`), run:
 
 ```
-python main.py --env_name=Envname --version=VersionName --gpu=0 
+python run_allocation_experiment.py --algo {ALGO}
+python run_lending_experiment.py --algo {ALGO}
 ```
 
 The results are collected in `./scripts/runs/{ALGO}-{ENV}/`, where
