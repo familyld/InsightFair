@@ -34,10 +34,10 @@ The results are collected in `./scripts/runs/{ALGO}-{ENV}/`, where
 # Bibtex
 
 ```
-@inproceedings{deng2024hides,
+@article{deng2024hides,
   title={What Hides behind Unfairness? Exploring Dynamics Fairness in Reinforcement Learning},
   author={Deng, Zhihong and Jiang, Jing and Long, Guodong and Zhang, Chengqi},
-  booktitle={IJCAI}, 
-  year={2024},
+  journal={arXiv preprint arXiv:2404.10942},
+  year={2024}
 }
 ```
