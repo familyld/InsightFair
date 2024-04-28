@@ -1,3 +1,8 @@
+scripts/runs
+scripts/figures
+scripts/test_*.py
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
